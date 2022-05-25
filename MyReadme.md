@@ -1,6 +1,7 @@
 
 # 1. intro :
-install ... emmet..
+install ... emmet.. + write div.content+tab => 
+      <div className="content">  </div>
 
 
 # 2. creating react-app :
@@ -36,4 +37,32 @@ if download react project :
 npm install / to install node-modules(dependeciys)
 
 
-# 3.  
+# 3.  components & templates :
++ page web = n components
++ each component has : template(html/css) + logic (js)
+----
++ index.js --> app.js
+function App() {
+  return (
+    <div className="App">
+      // JSX  
+      PS : jsx # html.. fih fazet f syntax className(jsx fl code)/class(html fl browser))
+        li affiché fl page
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Basics :
++ import .. export  of components
++ h1+tab => <h1> </h1>
+
