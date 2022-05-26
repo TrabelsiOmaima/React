@@ -38,6 +38,7 @@ npm install / to install node-modules(dependeciys)
 
 
 # 3.  components & templates :
+
 + page web = n components
 + each component has : template(html/css) + logic (js)
 ----
@@ -49,6 +50,14 @@ function App() {
       PS : jsx # html.. fih fazet f syntax className(jsx fl code)/class(html fl browser))
         li affiché fl page
     </div>
+
+
+# 4. Dynamique values in template :
+put values..variables...in html..jsx
+a..emmmet .. veeeeeryy helpfull  !!!!
+dynamique links..data..values.. 
+const  x = "kkkkkkkkkkk";
+<> {x} <>
 
 
 
