@@ -3,6 +3,11 @@
 install ... emmet.. + write div.content+tab => 
       <div className="content">  </div>
 
++ install package vscode :
+Simple react snippets
+
+..helpfull
+
 
 # 2. creating react-app :
 cmd : npx create-react-app reactjs
@@ -60,6 +65,11 @@ const  x = "kkkkkkkkkkk";
 <> {x} <>
 
 
+# 5. Multiple components :
++ components is a function qui return a jsx template. / navbar : template jsx
++ x.js / components.. export
++ y.js > import x .. <x/>
++ exemple navbar , home...
 
 
 
@@ -71,7 +81,21 @@ const  x = "kkkkkkkkkkk";
 
 
 
-# Basics :
+
+# Tips :
 + import .. export  of components
 + h1+tab => <h1> </h1>
+
++ sfc + tab :
+        const  = () => {
+            return (  );
+        }
+        
+        export default ;
+
+ + elemnt.nameClass + tab 
+ / nav.navbar + tab ==> <nav className="navbar"></nav>
+
+
+
 
