@@ -96,6 +96,14 @@ const  x = "kkkkkkkkkkk";
 
 
 # 8. using State :
++ state = data manage 
+name = "x", when i click => name="y"  // nn in the console, but in the template (browser)=> we need state (reel data)
++ useState Hook :
+
+> Home.js >
+   const [name, setName ] = useState('mario');
+   setName('luigi');
+
 
 
 
