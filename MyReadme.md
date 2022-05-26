@@ -81,12 +81,21 @@ const  x = "kkkkkkkkkkk";
 > navbar.js > / css.. wst jsx
 
 
+# 7. Click Events :
+
+
+> home.js 
+ <button onClick={handleClick} >Click me</button>  // ref
+<button onClick={handleClick()} >Click me</button> // exécution without click
+
++ case : fnct with params :  use arow function invoke functionX(params) :
+<button onClick={() =>  handleClickAgain('emma')} >Click me again</button>
+
++ e ..event 
 
 
 
-
-
-
+# 8. using State :
 
 
 
