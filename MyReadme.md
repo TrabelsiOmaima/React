@@ -72,6 +72,18 @@ const  x = "kkkkkkkkkkk";
 + exemple navbar , home...
 
 
+# 6.Adding Styles :
++ css .... app.css/ index.css
+
+> App.js / delete importe app.css
+> index.css > delete all..then.. copy..paste github
+
+> navbar.js > / css.. wst jsx
+
+
+
+
+
 
 
 
@@ -96,6 +108,6 @@ const  x = "kkkkkkkkkkk";
  + elemnt.nameClass + tab 
  / nav.navbar + tab ==> <nav className="navbar"></nav>
 
-
++ app.js = "root component"
 
 
