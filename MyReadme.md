@@ -141,8 +141,29 @@ name = "x", when i click => name="y"  // nn in the console, but in the template 
 
 
 
+# Functions as Props : delete an item  from list Blogs
+> home.js /data ..invoke
+
+    const handleDelete =(id) => {
+        const newBlogs = blogs.filter(blog => blog.id !==id);
+        setBlogs(newBlogs);
+
+    }
 
 
+ <BlogList blogs={blogs} title="All Blogs"  handleDelete={handleDelete}/>   //w npassiha l function as props  :            
+
+
+> BlogLIst.js : 
+const BlogList = ({ blogs, title, handleDelete }) => { <button onClick={ ()=> handleDelete(blog.id) }>delete blog</button>
+
++ PS : when we refrech.. tarja3 data l 9dima li f state 
+
+
+# 14. 
+
+
+ 
 
 
 
