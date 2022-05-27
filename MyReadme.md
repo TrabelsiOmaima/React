@@ -104,7 +104,17 @@ name = "x", when i click => name="y"  // nn in the console, but in the template 
    const [name, setName ] = useState('mario');
    setName('luigi');
 
-# 9. 
+
+
+# 9. React dev Tools :
++ add extension "react developer tools" to chrome or firefox
++ give u .. ur page component tree + hooks + props, js, rendred by, states,,....etc =>  inspect.. components ..
++ give u .. ?? =>  inspect.. profiler ??
++ narja3lou ki nst7a9ou
++ fazet l test..debug..
+
+
+# 10. 
 
 
 
