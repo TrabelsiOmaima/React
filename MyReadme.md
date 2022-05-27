@@ -123,6 +123,32 @@ name = "x", when i click => name="y"  // nn in the console, but in the template 
 
 # 11. Props :
 
++ reusibale components / create blog_liste component
++ props 
+> blogList :
+            const BlogList = ({blogs, title}) => { 
+               {title}  
+               {blogs}
+> home.js
+            <BlogList blogs={blogs} title="All Blogs" />
+
++ Props =  like function args : invoke (homejs) / function params component : destruction
+
+
+# 11. 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
