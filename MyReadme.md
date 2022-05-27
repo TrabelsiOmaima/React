@@ -135,7 +135,9 @@ name = "x", when i click => name="y"  // nn in the console, but in the template 
 + Props =  like function args : invoke (homejs) / function params component : destruction
 
 
-# 11. 
+# 11. Reusing components : 
+ <BlogList blogs={blogs} title="All Blogs" />
+ <BlogList blogs={blogs.filter((blog) => blog.author ==='mario' )} title="Mario's Blogs" />
 
 
 
