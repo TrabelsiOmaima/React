@@ -114,8 +114,14 @@ name = "x", when i click => name="y"  // nn in the console, but in the template 
 + fazet l test..debug..
 
 
-# 10. 
+# 10. outputting lists :
++ building mini blog 
++ state : use state hooks
+> home.js  / blogs.map / ps :  key={blog.id} = unique 
+> index.css / add /* blog previews / list */
 
+
+# 11. Props :
 
 
 
@@ -137,4 +143,5 @@ name = "x", when i click => name="y"  // nn in the console, but in the template 
 
 + app.js = "root component"
 
-
++ arrow function = call back function
++ 
