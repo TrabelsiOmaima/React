@@ -163,7 +163,7 @@ const BlogList = ({ blogs, title, handleDelete }) => { <button onClick={ ()=> ha
 # 14. useEffect Hook :
 + used fl authantification..feach data...etc..
 
-+ exécute in every rendre (every data change...etc)
++ exécute in every rendre (every data(state) change...etc)
 
 > home.js 
       useEffect( () => {
@@ -173,8 +173,15 @@ const BlogList = ({ blogs, title, handleDelete }) => { <button onClick={ ()=> ha
 
 
 # 15. useEffect dependencies :
++}, []); //  2nd params of useEffect  / where. where
+
+- [] : just in 1st render of the component 
+
++   }, [name]);  run when name state changed 
 
 
+
+# 16. 
  
 
 
@@ -206,4 +213,5 @@ const BlogList = ({ blogs, title, handleDelete }) => { <button onClick={ ()=> ha
 
 + arrow function = call back function
 + useState , useEffect,..etc = HOoks
-+ 
++  const [blogs, setBlogs] = useState([ ]) = state
+
