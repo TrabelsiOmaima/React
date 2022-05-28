@@ -160,7 +160,19 @@ const BlogList = ({ blogs, title, handleDelete }) => { <button onClick={ ()=> ha
 + PS : when we refrech.. tarja3 data l 9dima li f state 
 
 
-# 14. 
+# 14. useEffect Hook :
++ used fl authantification..feach data...etc..
+
++ exécute in every rendre (every data change...etc)
+
+> home.js 
+      useEffect( () => {
+          console.log('use effect ran');
+          console.log(blogs);
+      });
+
+
+# 15. useEffect dependencies :
 
 
  
@@ -193,4 +205,5 @@ const BlogList = ({ blogs, title, handleDelete }) => { <button onClick={ ()=> ha
 + app.js = "root component"
 
 + arrow function = call back function
++ useState , useEffect,..etc = HOoks
 + 
