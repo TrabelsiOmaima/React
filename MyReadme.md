@@ -181,9 +181,27 @@ const BlogList = ({ blogs, title, handleDelete }) => { <button onClick={ ()=> ha
 
 
 
-# 16. 
- 
+# 16. using JSON server :
 
++ nrmlnt : data come from db.. using an API // ml back
++ package "json server" : facke a list API : 
+ + json-server : (blogs data)
+        /blogs          GET      (fetch all blogs)
+        /blogs/{id}     GET      (fetch a single blog)
+        /blogs          POST     (add a new blog)
+        /blogs/{id}     DELETE   (delete a blog)
+
+
++ presk like postman fl back..y5allik tasti ma8ir matst7a9 back
+
++ --- pratique 
++ reactproject > data > db.json 
++ terminal : npx json-server --watch data/db.json --port 8000
+                +  Resources
+                http://localhost:8000/blogs
+                + Home
+                http://localhost:8000
+ 
 
 
 
