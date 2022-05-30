@@ -208,10 +208,25 @@ const BlogList = ({ blogs, title, handleDelete }) => { <button onClick={ ()=> ha
 
 
 
+# 17. fetching data with useEffect : + condutionnel template
+
++ 1. feach data using 'API: json server get all', in useEffect()
+
++ 2. up to date the state value using setBlogs
+-----
++ "condutionnel template ": 
+ERROR blogs = null
+<BlogList blogs={blogs} title="All Blogs"  handleDelete={handleDelete}/>
+3al lowel blogs value = null ..prblm
+
++ slt :
+{blogs && <BlogList blogs={blogs} title="All Blogs"  handleDelete={handleDelete}/>}
+//left true bch y5dm l right = check blogs != null.. apres yt3adda ll template
+------
++ ps na7ina l handledelete
 
 
-
-
+# 18. conditional loading message :
 
 # Tips :
 + import .. export  of components
