@@ -208,7 +208,7 @@ const BlogList = ({ blogs, title, handleDelete }) => { <button onClick={ ()=> ha
 
 
 
-# 17. fetching data with useEffect : + condutionnel template
+# 17. fetching data with useEffect : + conditional template
 
 + 1. feach data using 'API: json server get all', in useEffect()
 
@@ -226,7 +226,36 @@ ERROR blogs = null
 + ps na7ina l handledelete
 
 
+
+
 # 18. conditional loading message :
++ fetch from internet or from other server = rziin => so we use loading msg :
+
+const [isPending, setIsPending] = useState(true);
+{isPending && <div>Loading...</div> }
+
+
+ // if data existe , stop fetch loading
+setIsPending(false);
+
+# 19. handling fetch errors :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Tips :
 + import .. export  of components
@@ -247,4 +276,5 @@ ERROR blogs = null
 + arrow function = call back function
 + useState , useEffect,..etc = HOoks
 +  const [blogs, setBlogs] = useState([ ]) = state
++ conditional template = template ttaficha ken b cndt //expl loading..
 

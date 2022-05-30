@@ -6,6 +6,9 @@ const Home = () => {
 
     const [blogs, setBlogs] = useState(null);
 
+    //conditional loading msg
+    const [isPending, setIsPending] = useState(true);
+
 
     
     useEffect( () => {
@@ -15,8 +18,9 @@ const Home = () => {
         })
         .then(data => {
             console.log(data);
-            //set blogs with data
             setBlogs(data);
+            // if data existe , stop fetch loading
+            setIsPending(false);
         })
 
     }, []); 
@@ -24,6 +28,8 @@ const Home = () => {
 
     return ( 
         <div className="home">
+            {/*conditionel template */}
+            {isPending && <div>Loading...</div> }
             {blogs && <BlogList blogs={blogs} title="All Blogs" />}
         </div>
      );
