@@ -238,10 +238,25 @@ const [isPending, setIsPending] = useState(true);
  // if data existe , stop fetch loading
 setIsPending(false);
 
+
 # 19. handling fetch errors :
 
+1. //network err--sakkart server:NetworkError when attempting to fetch resource.
+                .catch( err => {  
+                    setError(err.message);
+                })
+2. server cv..ema prblm f response li raja3ha(exmpl..prblm fl api)
+                    if (! res.ok) {
+                        throw Error ('could not fetch the data for that resource');
+                    }
+
+3. manage error with setState :
+    const [error, setError] = useState(null);
+    setError(err.message);
+    setError(null);
 
 
+# 20. making a custom Hook :
 
 
 
