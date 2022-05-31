@@ -282,11 +282,23 @@ src > home.js
 
 
 # 21. the react router :
++ n pages i our app
++ other framwork : client/server (req x / x.html)
++ react # : cient/server (just initila req / index.html + compile react js file (js bundle) "react router")
+apres react router manage files and componnets without req to the server
++ ract websites SPA's
+
++   pratique :
+- install react router package
+    npm install react-router-dom@5 /v5 stable ..fi wa9tha
+- 
+
+> app.js
+Router/ switch/ Route
 
 
 
-
-
+# 22. Exact Match Routes :
 
 
 
