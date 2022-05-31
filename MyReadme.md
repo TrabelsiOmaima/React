@@ -299,6 +299,21 @@ Router/ switch/ Route
 
 
 # 22. Exact Match Routes :
+src> craete.js 
++ 
+<Route path="/">
+<Route path="/create">
+// ya9raha path inclut fi path .. w yo93.od dima y5arraj l home
+
++ slt : 
+<Route exact path="/">
+<Route path="/create">
+
+
+
+
+
+
 
 
 
