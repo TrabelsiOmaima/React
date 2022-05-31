@@ -327,13 +327,36 @@ slt : useEffect cleanup
 
 # 24. useEffect cleanup :
 + we should stop the fetch in the background (custom hook) when the components is unmounte
-+ 
+src> useFetc.js >
+... abortCont.abort();
+
+
+
+# 25. Route Parameters :
+//faza kima l id.. fl url
+src> blogDEtails.js 
++ use hook = useParams
+    const { id} = useParams();
+
++ app.js > //:id
+            <Route path="/blogs/:id">
+              <BlogDetails/>
+            </Route>
+
++ BlogList.js>
+                    <Link to={`/blogs/${blog.id}`}>
+                        <h2>{ blog.title }</h2>
+                         <p>Written by { blog.author }</p>   
+                    </Link> 
+
++ index.css
+na7iw lines ta7t links
+  text-decoration: none;
 
 
 
 
-
-
+# 26. Reusing custom Hooks : show blog details
 
 
 
