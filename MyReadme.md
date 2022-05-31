@@ -357,6 +357,17 @@ na7iw lines ta7t links
 
 
 # 26. Reusing custom Hooks : show blog details
+> blogDetails >
+{/* tu dois passer une template ..component 7adher or like this example */}
+
+index.css> /* blog details page */
+
+
+# 27. controlled inputs(forms)
+
+
+
+
 
 
 

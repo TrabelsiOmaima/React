@@ -5,7 +5,7 @@ import useFetch from "./useFetch";
 const Home = () => {
 
     //useFetch hook with the endpoint we nned in this component
-    const { data : blogs , isPending, error } = useFetch('http://localhost:8000/blogs');
+    const { data : blogs   , isPending, error } = useFetch('http://localhost:8000/blogs');
     // extract 'data' but here call it 'blogs'
 
 
