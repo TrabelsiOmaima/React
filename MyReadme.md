@@ -363,7 +363,19 @@ na7iw lines ta7t links
 index.css> /* blog details page */
 
 
-# 27. controlled inputs(forms)
+# 27. controlled inputs(forms) :
+
++ web form in react 
++ controlled inputs 
+> Create.js
+> index.css //* create new blog form */
+
+
+# 28. submit_events :
+
+
+
+
 
 
 
