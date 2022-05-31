@@ -185,7 +185,7 @@ const BlogList = ({ blogs, title, handleDelete }) => { <button onClick={ ()=> ha
 
 + nrmlnt : data come from db.. using an API // ml back
 + package "json server" : facke a list API : 
- + json-server : (blogs data)
+ + json-server : (blogs data) "// the endpoints of the url"
         /blogs          GET      (fetch all blogs)
         /blogs/{id}     GET      (fetch a single blog)
         /blogs          POST     (add a new blog)
@@ -256,12 +256,32 @@ setIsPending(false);
     setError(null);
 
 
+
+
 # 20. making a custom Hook :
 
++ prblm,repete code for other components
++ we want to use the same code to diffrents components
+    => put it(useEffect hook, usestate) in a js file and import it , use it in any components
+= "custom HOOk"
+hook = use.... expl : useFetch
+- twigs !!
++ pratique :
+src> useFetch.js
+        1. fiha useState + useEffect
+        2. nbaddal fiha l blogs b data / 5atrb chtwalli general l ay data type
+        3. return 
+        4. change the endpoint to be general/ url
+
+src > home.js
+        just import l useFetch hook
+    const { data, isPending, Error } = useFetch('http://localhost:8000/blogs');
 
 
 
 
+
+# 21. the react router :
 
 
 
@@ -291,5 +311,11 @@ setIsPending(false);
 + arrow function = call back function
 + useState , useEffect,..etc = HOoks
 +  const [blogs, setBlogs] = useState([ ]) = state
-+ conditional template = template ttaficha ken b cndt //expl loading..
++ conditional template = template ttaficha ken b cndt //expl loading.+ "custom hook"
 
+
+
+
+# -----------------------
+npm start run
+npx json-server --watch data/db.json --port 8000
