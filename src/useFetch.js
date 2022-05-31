@@ -10,28 +10,32 @@ const useFetch = (url) => {
 
    
     useEffect( () => {
+
+        //cleanup - to stop the fect req 
+        const abortCont = new AbortController();
+
         setTimeout( () => {
-            fetch(url) 
+            //fetch(url) 
+            fetch(url, {signal : abortCont.signal}) 
                 .then(res => {
-                    //catch res error
                     if (! res.ok) {
                         throw Error ('could not fetch the data for that resource');
-                        // l msg li nda5lou heka.. chy5arajhouli fl catch le5ra
                     }
                     return res.json();
                 })
                 .then(data => {
-                    setData(data); //ps data hedhi wl const data #
-                    // if data existe , stop fetch loading
+                    setData(data); 
                     setIsPending(false);
                     setError(null);
                 })
-                .catch( err => {  //1. network err--sakkart server:NetworkError when attempting to fetch resource.
+                .catch( err => {  
                     setIsPending(false);
                     setError(err.message);
                 })
  
         }, 1000);
+        //cleanup
+        return () => abortCont.abort();
     }, [url]); 
 
 

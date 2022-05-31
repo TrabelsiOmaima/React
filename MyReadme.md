@@ -321,9 +321,13 @@ serc> Navbar>
 <Link to="/create">New Blog</Link>    
 
 Prblm : ki tnavigi rapidement .. l custom hook yo93od y5dm en arriere plan 
+"can't perform a react state update.."
 slt : useEffect cleanup
 
+
 # 24. useEffect cleanup :
++ we should stop the fetch in the background (custom hook) when the components is unmounte
++ 
 
 
 
