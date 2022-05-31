@@ -309,7 +309,21 @@ src> craete.js
 <Route exact path="/">
 <Route path="/create">
 
+--- prblm stll send req to the server !
+---slt : react router link
 
+
+# 23. Router Links :
+react routerv intercept this request by using react link tag
+ + change <a href="/.."> by <Links> fl components
+
+serc> Navbar>
+<Link to="/create">New Blog</Link>    
+
+Prblm : ki tnavigi rapidement .. l custom hook yo93od y5dm en arriere plan 
+slt : useEffect cleanup
+
+# 24. useEffect cleanup :
 
 
 
