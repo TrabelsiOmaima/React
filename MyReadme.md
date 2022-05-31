@@ -373,9 +373,12 @@ index.css> /* blog details page */
 
 # 28. submit_events :
 
+create.js
+button sbmit
+ma8ir id --json server fl post req ya3ti auto id ll objcrs
 
 
-
+# 29. making POST req : 
 
 
 
