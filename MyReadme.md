@@ -384,9 +384,16 @@ ma8ir id --json server fl post req ya3ti auto id ll objcrs
 
 
 # 30. Programmatic redirects :
++ ykamml ya3ml add blog.. ta3mallou auto  redirected ll home page
++ bl useHistory hook
+
+> create.js
+hook :   const history = useHistory();
+         history.push('/');
 
 
 
+# 31. Deleting blog :
 
 
 

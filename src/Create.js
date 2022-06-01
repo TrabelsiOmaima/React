@@ -1,11 +1,16 @@
 import { useState } from "react";
+//30
+import { useHistory } from "react-router-dom";
+
 
 const Create = () => {
   const [title, setTitle] = useState('');
   const [body, setBody] = useState('');
   const [author, setAuthor] = useState('mario');
-  //form
   const [isPending, setIsPending] = useState(false);
+  //30
+  const history = useHistory();
+
 
 
   const handleSubmit = (e) => {
@@ -14,7 +19,6 @@ const Create = () => {
 
     setIsPending(true);
 
-    //post req
     fetch('http://localhost:8000/blogs', {
       method: 'POST',
       headers: {"content-type": "application/json"},
@@ -22,6 +26,10 @@ const Create = () => {
     }).then( () => {
       console.log('new blog added');
       setIsPending(false);
+      //30 
+      //history.go(-1);
+      //history.go(-3)
+      history.push('/');
     })
     
   }
