@@ -394,7 +394,13 @@ hook :   const history = useHistory();
 
 
 # 31. Deleting blog :
++ delete blog mch ml index.. ml blogDEtails
+> blogDEtails.js
+presk same que create
 
+
+# 32. 404 pages & next steps :
++ 
 
 
 # Tips :
