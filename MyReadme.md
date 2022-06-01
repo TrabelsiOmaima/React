@@ -400,7 +400,13 @@ presk same que create
 
 
 # 32. 404 pages & next steps :
-+ 
++ src> NOtFound.js
+app.js >
+            <Route path="*">
+              <NotFound/>
+            </Route>
+
+            
 
 
 # Tips :
